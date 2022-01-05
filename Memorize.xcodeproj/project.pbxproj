@@ -13,6 +13,10 @@
 		ACF2FFCC27729BD7001895CB /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2FFCB27729BD7001895CB /* EmojiMemoryGameView.swift */; };
 		ACF2FFCE27729BD9001895CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF2FFCD27729BD9001895CB /* Assets.xcassets */; };
 		ACF2FFD127729BD9001895CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF2FFD027729BD9001895CB /* Preview Assets.xcassets */; };
+		ACF52C8327851A57009210A2 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF52C8227851A57009210A2 /* Grid.swift */; };
+		ACF52C8527851EAC009210A2 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF52C8427851EAC009210A2 /* GridLayout.swift */; };
+		ACF52C87278525E3009210A2 /* Array+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF52C86278525E3009210A2 /* Array+Identifiable.swift */; };
+		ACF52C892785331E009210A2 /* Array+Only.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF52C882785331E009210A2 /* Array+Only.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		ACF2FFCB27729BD7001895CB /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		ACF2FFCD27729BD9001895CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACF2FFD027729BD9001895CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACF52C8227851A57009210A2 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		ACF52C8427851EAC009210A2 /* GridLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		ACF52C86278525E3009210A2 /* Array+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Identifiable.swift"; sourceTree = "<group>"; };
+		ACF52C882785331E009210A2 /* Array+Only.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Only.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +65,12 @@
 			children = (
 				ACF2FFC927729BD7001895CB /* MemorizeApp.swift */,
 				ACF2FFCB27729BD7001895CB /* EmojiMemoryGameView.swift */,
+				ACF52C8227851A57009210A2 /* Grid.swift */,
+				ACF52C86278525E3009210A2 /* Array+Identifiable.swift */,
+				ACF52C8427851EAC009210A2 /* GridLayout.swift */,
 				AC74D5842774013B0085B526 /* EmojiMemoryGame.swift */,
 				AC74D5822773FF210085B526 /* MemoryGame.swift */,
+				ACF52C882785331E009210A2 /* Array+Only.swift */,
 				ACF2FFCD27729BD9001895CB /* Assets.xcassets */,
 				ACF2FFCF27729BD9001895CB /* Preview Content */,
 			);
@@ -146,7 +158,11 @@
 				AC74D5832773FF210085B526 /* MemoryGame.swift in Sources */,
 				ACF2FFCC27729BD7001895CB /* EmojiMemoryGameView.swift in Sources */,
 				ACF2FFCA27729BD7001895CB /* MemorizeApp.swift in Sources */,
+				ACF52C8527851EAC009210A2 /* GridLayout.swift in Sources */,
+				ACF52C8327851A57009210A2 /* Grid.swift in Sources */,
+				ACF52C87278525E3009210A2 /* Array+Identifiable.swift in Sources */,
 				AC74D5852774013B0085B526 /* EmojiMemoryGame.swift in Sources */,
+				ACF52C892785331E009210A2 /* Array+Only.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
-				DEVELOPMENT_TEAM = JU82QU649W;
+				DEVELOPMENT_TEAM = 5696N2RH6W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -306,7 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
-				DEVELOPMENT_TEAM = JU82QU649W;
+				DEVELOPMENT_TEAM = 5696N2RH6W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
